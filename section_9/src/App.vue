@@ -4,7 +4,7 @@
             <div class="col-xs-12">
                <app-quote>
                    <h2 slot="title">{{ quoteTitle }}</h2>
-                   <p slot="content">An Awesome Quote!</p>
+                   <p>An Awesome Quote!</p>
                </app-quote>
             </div>
         </div>
