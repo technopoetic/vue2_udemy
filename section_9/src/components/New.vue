@@ -12,6 +12,15 @@ export default {
         return {
             counter: 0
         };
+    },
+    destroyed: function(){
+        console.log('Destroyed!');
+    },
+    deactivated: function(){
+        console.log('Deactivated!');
+    },
+    activated: function(){
+        console.log('Activated!');
     }
 }
 </script>
